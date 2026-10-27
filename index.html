@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SHUQU LIU — Selected Works</title>
+<meta name="description" content="Selected works by SHUQU LIU. Painting, texture and the emotional experience of identity.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=cover-painting-3">
+</head>
+<body class="viewer">
+
+<section class="cover" id="cover" hidden>
+  <img id="cover-image" alt="" sizes="100vw">
+  <div class="cover-text">
+    <h1 data-site="name">SHUQU LIU</h1>
+    <p data-site="tagline">Painting, ceramics & photography</p>
+  </div>
+  <button class="cover-enter" id="cover-enter" type="button">Enter</button>
+</section>
+
+<header class="bar bar-top">
+  <a class="wordmark" href="index.html" data-site="name">SHUQU LIU</a>
+  <div class="bar-right">
+    <nav class="filters" id="filters-bar" aria-label="Filter works"></nav>
+    <span class="bar-rule" aria-hidden="true"></span>
+    <nav class="pages">
+      <button id="index-toggle" type="button" aria-expanded="false" aria-controls="index-panel">Index</button>
+      <a href="about.html">About & Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="stage" id="stage">
+  <figure class="plate" id="plate">
+    <img id="work" alt="" sizes="(max-width: 680px) 92vw, (max-width: 1200px) 76vw, 64vw">
+  </figure>
+  <button class="edge edge-prev" id="prev" type="button" aria-label="Previous work"></button>
+  <button class="edge edge-next" id="next" type="button" aria-label="Next work"></button>
+</main>
+
+<footer class="bar bar-bottom">
+  <p class="caption" id="caption" aria-live="polite"></p>
+  <p class="counter"><span id="n">1</span><span class="slash">/</span><span id="total">1</span></p>
+</footer>
+
+<div class="track" aria-hidden="true"><span id="track-fill"></span></div>
+
+<section class="index" id="index-panel" hidden>
+  <nav class="filters filters-in-index" id="filters-index" aria-label="Filter works"></nav>
+  <div class="index-grid" id="index-grid"></div>
+</section>
+
+<script src="site.js?v=cover-painting-3"></script>
+<script src="works.js?v=cover-painting-3"></script>
+<script src="script.js?v=cover-painting-3"></script>
+</body>
+</html>
